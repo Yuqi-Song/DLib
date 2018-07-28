@@ -10,9 +10,9 @@ import time
 from DlibAttack import DlibAttack
 
 if __name__ == "__main__":
-    
+    print("1.Data Attack              2.Detection")
     order = int(input('Welcome to use Dlib,please choose the operation:'))
-    print ("1.Data Attack              2.Detection")
+
     if order == 1:
         print ("You have choose the Data Attack:),please choose the attack way")
         attack = int(input())
