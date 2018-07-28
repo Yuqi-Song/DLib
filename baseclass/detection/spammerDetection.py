@@ -7,7 +7,7 @@ Created on Fri Jul 27 18:23:32 2018
 
 from Detection import Detection
 
-class SpamerDetection(Detection):
+class SpammerDetection(Detection):
     def __init__(self):
         super().__init__()
-        print ("SpamerDetection 初始化")
+        print ("SpammerDetection 初始化")

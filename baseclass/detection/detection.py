@@ -7,5 +7,5 @@ Created on Fri Jul 27 18:22:57 2018
 
 class Detection(object):
     def __init__(self):
-        print ("Detection 初始化")
+        print ("detection 初始化")
     
