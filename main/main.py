@@ -2,7 +2,7 @@
 """
 Created on Fri Jul 27 17:00:00 2018
 
-@author: WZW
+@author: WZW&SYQ
 """
 
 import sys
