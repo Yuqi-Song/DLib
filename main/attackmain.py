@@ -21,7 +21,7 @@ if __name__ == "__main__":
     attack = int(input())
     s = time.time()
     if attack == 1:
-        dla = RandomAttack('../config/RA_config.conf')
+        dla = RandomAttack('../config/attack_config.conf')
     elif attack == 2:
         print ('2')
     else:
