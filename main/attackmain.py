@@ -13,6 +13,7 @@ import time
 
 sys.path.append('../')
 from baseclass.shillingAttack.Attack import Attack
+from algorithm.shillingAttack.randomAttack import RandomAttack
 if __name__ == "__main__":
     print ('Welcome to use Dlib!')
     print ("1.RandomAttack")
@@ -20,7 +21,7 @@ if __name__ == "__main__":
     attack = int(input())
     s = time.time()
     if attack == 1:
-        dla = Attack('../config/RA_config.conf')
+        dla = RandomAttack('../config/RA_config.conf')
     elif attack == 2:
         print ('2')
     else:

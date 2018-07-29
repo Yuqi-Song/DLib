@@ -76,4 +76,5 @@ class attackLineConfig(object):
         return self.mainOption
 
     def contains(self,key):
-        return self.options.has_key(key)
+        if key in self.options:
+            return True
