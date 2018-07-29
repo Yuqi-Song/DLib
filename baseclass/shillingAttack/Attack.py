@@ -25,7 +25,6 @@ class Attack(object):
         self.startUserID = 0
 
 
-        print(self.outputDir)
         self.userProfile = FileIO.loadRate(self.config, self.config['ratings'])
 
         if not os.path.exists(self.outputDir):
