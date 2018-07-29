@@ -7,7 +7,7 @@ Created on Fri Jul 27 17:00:00 2018
 
 import sys
 import time
-from DlibAttack import DlibAttack
+from DLibAttack import DLibAttack
 
 if __name__ == "__main__":
     print("1.Data Attack              2.detection")
